@@ -9,7 +9,7 @@
                 width: 50%;
             }
             td {
-                border: 1px solid #dddddd;
+                border: 2px solid #dddddd;
             }
             tr:nth-child(even){
                background-color: #dddddd; 
