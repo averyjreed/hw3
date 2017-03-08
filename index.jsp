@@ -10,7 +10,7 @@
             }
             td {
                 width: 100%;
-                border: 1px solid #dddddd;
+                border: 2px solid #dddddd;
             }
         </style>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">

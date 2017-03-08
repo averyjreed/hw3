@@ -61,27 +61,27 @@
                 </tr>
                 
                 <tr>
-                    <td>Overtime Hourly Rate</td>
+                    <td>Overtime Hourly Rate  </td>
                     <td>$<%= overtimeRate %> </td>
                 </tr>
                 
                 <tr>
-                    <td>Gross Pay</td>
+                    <td>Gross Pay  </td>
                     <td>$<%= grossPay %> </td>
                 </tr>
                 
                 <tr>
-                    <td>Pre-tax Deduct: </td>               
+                    <td>Pre-tax Deduct:  </td>               
                     <td>$<%= preTax%></td>
                 </tr>
                 
                  <tr>
-                    <td>Pre Tax Pay</td>
+                    <td>Pre Tax Pay  </td>
                     <td>$<%= preTaxPay %> </td>
                 </tr>
                 
                  <tr>
-                    <td>Tax Amount </td>
+                    <td>Tax Amount  </td>
                     <% if (grossPay < 500) { %>
                     <td>$<%= lowTax %> </td>
                     <%} else{%>
@@ -90,7 +90,7 @@
                 </tr>
                 
                 <tr>
-                    <td>Post-tax Pay: </td> 
+                    <td>Post-tax Pay:  </td> 
                     <% if (grossPay < 500) { %>
                     <td>$<%= postTaxPayLow %> </td>
                     <% } else {%>
@@ -100,12 +100,12 @@
                 
                 
                 <tr>
-                    <td>Post-tax Deduct: </td>               
+                    <td>Post-tax Deduct:  </td>               
                     <td>$<%= postTax%></td>
                 </tr>
                 
                 <tr>
-                    <td>Gross Pay </td> 
+                    <td>Gross Pay  </td> 
                     <% if (grossPay < 500) { %>
                     <td>$<%= grossPayLow %> </td>
                     <% } else {%>
